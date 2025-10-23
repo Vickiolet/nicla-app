@@ -1,0 +1,72 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# =========== nicla-frontend 忽略规则 ===========
+
+# dependencies
+/nicla-frontend/node_modules
+/nicla-frontend/.pnp
+/nicla-frontend/pnp.js
+
+# testing
+/nicla-frontend/coverage
+
+# production
+/nicla-frontend/build
+
+# misc
+/nicla-frontend/.DS_Store
+/nicla-frontend/.env.local
+/nicla-frontend/.env.development.local
+/nicla-frontend/.env.test.local
+/nicla-frontend/.env.production.local
+
+/nicla-frontend/npm-debug.log*
+/nicla-frontend/yarn-debug.log*
+/nicla-frontend/yarn-error.log*
+
+# =========== nicla-backend 忽略规则 ===========
+
+# virtual environment
+/nicla-backend/nicla-venv/
+
+# compiled Python files
+/nicla-backend/__pycache__/
+/nicla-backend/**/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# testing
+/nicla-backend/.pytest_cache/
+/nicla-backend/coverage/
+
+# IDE configurations
+/nicla-backend/.vscode/
+/nicla-backend/.idea/
+*.swp
+*.swo
+*~
+
+# environment variables
+/nicla-backend/.env
+/nicla-backend/.env.local
+/nicla-backend/.env.development.local
+/nicla-backend/.env.test.local
+/nicla-backend/.env.production.local
+
+# logs
+/nicla-backend/logs/
+/nicla-backend/*.log
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# build outputs
+/nicla-backend/dist/
+/nicla-backend/build/
