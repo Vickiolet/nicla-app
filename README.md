@@ -1,7 +1,5 @@
 # Desktop App for Earphone Control
 
-# Desktop App for Earphone Control
-
 ```text
 .
 ├── app.ino
