@@ -1,6 +1,6 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
-# =========== nicla-frontend 忽略规则 ===========
+# =========== nicla-frontend ignore rules ===========
 
 # dependencies
 /nicla-frontend/node_modules
@@ -24,8 +24,7 @@
 /nicla-frontend/yarn-debug.log*
 /nicla-frontend/yarn-error.log*
 
-# =========== nicla-backend 忽略规则 ===========
-
+# =========== nicla-backend ignore rules ===========
 # virtual environment
 /nicla-backend/nicla-venv/
 
