@@ -114,10 +114,10 @@ static inline const char* activityToStr(Activity a){
 struct Rate{ uint32_t gasTempMs; uint32_t imuHz; };
 Rate rateStill{15000,25};
 Rate rateWalk{1500,50};
-Rate rateRun{800,50};
-Rate rateBike{1000,50};
-Rate rateVehicle{1000,50};
-Rate rateVehicleStill{1000,50};
+Rate rateRun{1500,50};
+Rate rateBike{1500,50};
+Rate rateVehicle{1500,50};
+Rate rateVehicleStill{1500,50};
 Rate rateTilt{1500,50};
 
 // Activity state debounce (parameters tuned: enter 2s, exit hold 12s)
@@ -812,3 +812,5 @@ void loop(){
     return;
   }
 }
+
+
